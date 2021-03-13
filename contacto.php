@@ -127,7 +127,7 @@ if(isset($_POST['submit'])) {
     </div>
     <footer>
         <div class="container-fuid">
-            <div class="row text-warning mt-5 p-0">
+            <div class="row text-warning pt-4 p-0">
                 <div class="col-md-5">
                     <h4><strong>Develop</strong> diseño y desarrollo web.</h4>
                 </div>
