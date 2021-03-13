@@ -1,0 +1,287 @@
+@font-face {
+    src: url("./fonts/Poppins-Light.ttf");
+    font-family: pop;
+}
+
+@font-face {
+    src: url("./fonts/Poppins-Regular.ttf");
+    font-family: poppins;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    font-size: medium;
+    width: 100%;
+}
+
+article {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-family: poppins;
+    font-weight: bold;
+}
+
+p {
+    font-family: poppins;
+}
+
+
+/**/
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1030;
+    background: url('./img/pageLoader.gif') 50% 50% no-repeat rgb(249, 249, 249);
+    opacity: .8;
+}
+
+#actividades {
+    background-image: url(./img/activ_bg.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    z-index: 0;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    line-height: 80vh;
+    vertical-align: middle;
+}
+
+.act_imgs {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 50vh;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+    direction: ltr;
+}
+
+#menu {
+    background-color: transparent;
+    z-index: 99;
+    font-family: poppins;
+}
+
+#navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1050;
+    background-color: black;
+    opacity: .9;
+    font-family: poppins;
+}
+
+#logo_navbar {
+    height: 40px;
+    opacity: 1;
+}
+
+#logo_navbar1 {
+    height: 40px;
+    opacity: 1;
+}
+
+#logo_navbar2 {
+    height: 50px;
+    opacity: 1;
+}
+
+#logo_navbar0 {
+    height: 40px;
+    opacity: 1;
+}
+
+#main {
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    z-index: 0;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    display: block;
+}
+
+.align_center {
+    transform: translateY(45%);
+}
+
+#links {
+    font-size: medium;
+    color: white;
+}
+
+.logo {
+    z-index: 30;
+    max-width: 290px;
+    top: 30%;
+}
+
+.logo_name {
+    color: black;
+    font-family: poppins;
+    left: 0;
+    height: auto;
+    position: relative;
+    top: 20px;
+    font-size: 1.1em;
+    width: 100%;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1)
+}
+
+.separator {
+    background-color: black;
+    height: 3vh;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+#about_titulo {
+    text-align: center;
+}
+
+#about {
+    background-color: #ffc000;
+    color: black;
+    font-family: poppins;
+    font-size: medium;
+    text-align: left;
+}
+
+#balestrini {
+    width: 90%;
+    position: relative;
+    display: block;
+}
+
+.Todos {
+    width: 49%;
+    padding: 0%;
+    margin: auto;
+}
+
+#todos {
+    display: inline-flexbox;
+}
+
+#about_tatwong {
+    display: inline;
+}
+
+#tat1 {
+    width: 98%;
+}
+
+.titulos {
+    font-size: x-large;
+}
+
+#masters {
+    background-color: black;
+    color: white;
+    font-family: poppins;
+}
+
+.master_fotos {
+    display: inline;
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 0.875em;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+}
+
+.text-destaque {
+    margin-top: auto;
+    margin-bottom: auto;
+    letter-spacing: .4em;
+    color: #ffc000;
+    position: relative;
+    left: -4%
+}
+
+#estilo {
+    text-align: center;
+    color: black;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+#estilo_txt {
+    font-family: poppins;
+    font-size: medium;
+}
+
+#arbol {
+    display: inline;
+    width: 90%;
+    margin-bottom: 5vh;
+}
+
+.historia_img {
+    display: table-cell;
+    width: 100%;
+    min-width: none;
+    position: relative;
+    vertical-align: middle;
+}
+
+.red {
+    color: red
+}
+
+.contact {
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    z-index: 0;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+.contacto {
+    background-color: black;
+    opacity: .9;
+}
+
+footer {
+    background-color: rgb(60, 0, 139);
+}
