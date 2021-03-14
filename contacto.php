@@ -60,6 +60,47 @@ if(isset($_POST['submit'])) {
     <div class="loader">
     </div>
 
+ 
+        <nav class="navbar navbar-expand-md navbar-dark mt-0 black">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="links" class="navbar-nav h4 align-items-center navbar-right ml-auto mr-auto">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/#actividades">Actividades</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/#about">¿Quiénes Somos?</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/#masters">Maestros</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/#estilo">Estilo</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/#kids">Niños</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/#faqs">Preg. Frecuentes</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/#cdprueba">Clase de Prueba</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/#ubicacion">Sede</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/#instructores">Instructores</a></li>
+                    
+
+                    </ul>
+                </div>
+                <a class="navbar-brand align-content-align-items-baseline" href="tel:+5492613667272" target="_blank">
+                    <img id="logo_navbar0" src="./css/img/telefono.png" alt="logo">
+                </a>
+                <a class="navbar-brand align-content-align-items-baseline" href="http://wa.me/542613667272" target="_blank">
+                    <img id="logo_navbar" src="./css/img/whats.png" alt="logo">
+                </a>
+                <a class="navbar-brand align-content-align-items-baseline" href="https://www.facebook.com/lungfuargentina" target="_blank">
+                    <img id="logo_navbar1" src="./css/img/facebook-white.png" alt="logo">
+                </a>
+                <a class="navbar-brand align-content-align-items-baseline" href="https://www.instagram.com/lungfuargentina" target="_blank">
+                    <img id="logo_navbar2" src="./css/img/instagram.png" alt="logo">
+                </a>
+            </div>
+
+        </nav>
+    
+
+
+
     <div class="container-fluid p-3  contact">
         <div class="row text-white">
             <h2><b>Contacto</b></h2>
@@ -114,8 +155,8 @@ if(isset($_POST['submit'])) {
                     </div>
 
                     <div class="form-group mb-10">
-                        <button class="btn btn-primary" type="submit" name="submit">Enviar</button>
-                        <button class="btn btn-success" type="reset" name="reset">Limpiar</button>
+                        <button class="btn btn-success p-2 pl-5 pr-5" type="submit" name="submit">Enviar</button>
+                        <button class="btn btn-danger" type="reset" name="reset">Limpiar</button>
                     </div>
 
                 </form>
